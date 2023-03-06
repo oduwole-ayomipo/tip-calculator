@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/oduwole-ayomipo/tip-calculator/blob/main/tip-calculator-app-main/Screenshot.png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://ayooo-tip-calc.netlify.app/)
 
 ## My process
 
