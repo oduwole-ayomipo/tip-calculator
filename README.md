@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://ayooo-tip-calc.netlify.app/)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://ayooo-tip-calc.netlify.app/)
 
 ## My process
 
