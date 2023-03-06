@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  
+</head>
+<body>
+  <section role="main" class="row tip-interface">
+    <div class="col right-interface">
+      <div class="bill-input">
+        <label for="bill_amount"> Bill <span id="bill-error"></span></label>
+        <i class="fa-solid fa-dollar-sign icon"></i>
+        <input class="reset" id="billvalue" type="number" oninput="calculateTip()" placeholder="0" min="0">
+      </div>
+
+      <div class="tip-percentage">
+        <label for="Bill_Amount"> Select Tip %</label>
+        <div class="tip-btn">
+          <button id="5percent" class="default button" type="submit" onclick="activateButton(this), clearCustom(this)" value="5">5%</button>
+          <button id="10percent" class="default button"  type="submit" onclick="activateButton(this), clearCustom(this)" value="10">10%</button>
+          <button id="15percent" class="default button" type="submit" onclick="activateButton(this), clearCustom(this)" value="15">15%</button>
+          <button id="25percent" class="default button" type="submit" onclick="activateButton(this), clearCustom(this)" value="25">25%</button>
+          <button id="50percent" class="default button"  type="submit" onclick="activateButton(this), clearCustom(this)" value="50">50%</button>
+          <input id="custom" class="custom-value reset" placeholder="custom" type="number" oninput="calculateTip()", onfocus= "isFocused(this)"></input>
+        </div>
+      </div>
+
+      <div class="no-of-people">
+        <label for="no-of-people">Number of People <span id="num-people-error"></span></label>
+        <i class="fa-solid fa-user icon"></i>
+        <input class="reset" id="peoplevalue" type="number" oninput="calculateTip()" placeholder="0" min="0">
+      </div>
+    </div>
+
+    <div class="col left-interface">
+      <div class="tip-per-person">
+        <div class="total-amt-label"><h4>Tip amount</h4> <span>/ person</span></div>
+        <div class="value-per-person"><i class="fa-solid fa-dollar-sign icon"></i><span id="tip-per-person">0.00</span></div>
+      </div>
+
+      <div class="total-per-person">
+        <div class="total-amt-label"><h4>Total amount</h4> <span>/ person</span></div>
+        <div class="value-per-person"><i class="fa-solid fa-dollar-sign icon"></i><span id="total-per-person">0.00</span></div>
+      </div>
+      
+      <button id="reset" type="reset" onclick="clearInput()">reset</button>
+    </div>
+
+    
+  </section>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">AYOOO</a>
+    </div>
+  </footer>
+  
+
+  <script src="res/app.js"></script>
+  <script src="res/tipCalculator.js"></script>
+  <script src="res/reset.js"></script>
+</body>
+</html>
