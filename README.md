@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/oduwole-ayomipo/tip-calculator)
+- [Solution URL](https://www.frontendmentor.io/solutions/a-responsive-tip-calculator-7kZP2bCgOv)
 - [Live Site URL](https://ayooo-tip-calc.netlify.app/)
 
 ## My process
@@ -109,7 +109,7 @@ function calculateTip() {
 
 ### Useful resources
 
-- [Example resource 1](https://www.stackoverflow.com) - 
+- [Example resource 1](https://www.stackoverflow.com)
 
 - [Example resource 2](https://www.w3schools.com)
 
@@ -117,9 +117,8 @@ function calculateTip() {
 
 ## Author
 
-- Website - [AYOOO](https://www.twitter.com/ayooo.eth)
 - Frontend Mentor - [Oduwole Ayomipo](https://www.frontendmentor.io/profile/oduwoleayomipo)
-- Twitter - [JUST AYOOO](https://www.twitter.com/ayooo.eth)
+- Twitter - [JustAyooo](https://www.twitter.com/ayooo.eth)
 
 
 ## Acknowledgments
