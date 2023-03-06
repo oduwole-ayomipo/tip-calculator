@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- [Solution URL](https://github.com/oduwole-ayomipo/tip-calculator)
 - [Live Site URL](https://ayooo-tip-calc.netlify.app/)
 
 ## My process
