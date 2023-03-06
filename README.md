@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://your-solution-url.com)
-- [Live Site URL] (https://ayooo-tip-calc.netlify.app/)
+- [Live Site URL](https://ayooo-tip-calc.netlify.app/)
 
 ## My process
 
@@ -117,9 +117,9 @@ function calculateTip() {
 
 ## Author
 
-- Website - [AYOOO](https://https://www.twitter.com/ayooo.eth)
-- Frontend Mentor - [@Oduwole Ayomipo](https://www.frontendmentor.io/profile/oduwoleayomipo)
-- Twitter - [@ayooo.eth](https://www.twitter.com/ayooo.eth)
+- Website - [AYOOO](https://www.twitter.com/ayooo.eth)
+- Frontend Mentor - [Oduwole Ayomipo](https://www.frontendmentor.io/profile/oduwoleayomipo)
+- Twitter - [JUST AYOOO](https://www.twitter.com/ayooo.eth)
 
 
 ## Acknowledgments
